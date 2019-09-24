@@ -1,0 +1,82 @@
+h1 {
+  color: rgb(46, 31, 132);
+  border-bottom-style: ridge;
+  text-align: center;
+  border-color: rgb(46, 31, 132);
+  border-width: 5px;
+  font-family: cursive;
+}
+
+body {
+  background-color: #AEDD81;
+  font-family: "Comic Sans MS";
+}
+
+.important:hover {
+  background-color: rgb(240, 216, 188);
+  font-family: cursive;
+  font-style: oblique;
+}
+
+h2 {
+  color: rgb(108, 0, 0);
+  text-align: left;
+  text-decoration: inherit;
+}
+
+h3 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color:rgb(108, 0, 0);
+  text-decoration-style: wavy;
+  font-family: fantasy;
+}
+
+.footer {
+  font-family: monospace;
+  text-align: center;
+  color: gray;
+  text-decoration: overline;
+}
+
+.list-of-project:hover {
+  background-color: rgb(98, 239, 232);
+  font-family: cursive;
+}
+
+.list-of-project2:hover {
+  background-color: rgb(98, 141, 232);
+  font-family: monospace;
+}
+
+img {
+  border-style: dashed;
+  border-color: rgb(40, 96, 251);
+  border-width: 2px;
+}
+
+.img {
+  width: 200px;
+  height: 150px;
+  max-width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.link1:hover {
+  background-color: rgb(166, 192, 251);
+  font-family: monospace;
+}
+
+.link2:hover {
+  background-color: rgb(215, 192, 251);
+  font-family: monospace;
+}
+
+.img2 {
+  width: 400px;
+  height: 210px;
+  max-width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
