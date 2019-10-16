@@ -1,18 +1,32 @@
+.fa-address-book {
+  position: relative;
+  color: green;
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+}
+
+.fa-file-archive {
+  position: relative;
+  color: blue;
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+}
+
 h1 {
   color: rgb(46, 31, 132);
   border-bottom-style: ridge;
   text-align: center;
   border-color: rgb(46, 31, 132);
   border-width: 5px;
-  font-family: cursive;
+  font-family: 'Righteous', cursive;
 }
 
 body {
   background-color: #AEDD81;
-  font-family: "Comic Sans MS";
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.important:hover {
+#important:hover {
   background-color: rgb(240, 216, 188);
   font-family: cursive;
   font-style: oblique;
@@ -20,8 +34,11 @@ body {
 
 h2 {
   color: rgb(108, 0, 0);
-  text-align: left;
-  text-decoration: inherit;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 0rem;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
 }
 
 h3 {
@@ -30,18 +47,35 @@ h3 {
   text-decoration-color:rgb(108, 0, 0);
   text-decoration-style: wavy;
   font-family: fantasy;
+  padding-bottom: 0rem;
+  margin-bottom: 0.5rem;
 }
 
+h4 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.major {
+  font-style: italic;
+}
 .footer {
-  font-family: monospace;
-  text-align: center;
+  font-family: 'Kanit', sans-serif;
   color: gray;
   text-decoration: overline;
+  padding-top: 10rem;
+  overflow: hidden;
+  text-align: center;
 }
 
-.list-of-project:hover {
+#list-of-project:hover {
   background-color: rgb(98, 239, 232);
   font-family: cursive;
+  font-weight: 700;
+
 }
 
 .list-of-project2:hover {
@@ -49,10 +83,15 @@ h3 {
   font-family: monospace;
 }
 
+.list-of-project2 {
+  margin-top: 5rem;
+}
+
 img {
   border-style: dashed;
   border-color: rgb(40, 96, 251);
   border-width: 2px;
+  margin-left: 8rem;
 }
 
 .img {
@@ -79,4 +118,37 @@ img {
   max-width: 100%;
   text-align: center;
   vertical-align: middle;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#footlink {
+  font-weight: 700;
+  margin-left: 15rem;
+}
+li {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.box2 {
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 0rem;
+}
+header {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+section {
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
