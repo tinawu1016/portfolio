@@ -39,16 +39,17 @@ h2 {
   margin-top: 0rem;
   font-family: 'Lobster', cursive;
   font-size: 40px;
+  vertical-align: middle;
 }
 
 h3 {
-  text-align: center;
   text-decoration-line: underline;
   text-decoration-color:rgb(108, 0, 0);
   text-decoration-style: wavy;
   font-family: fantasy;
   padding-bottom: 0rem;
   margin-bottom: 0.5rem;
+  text-align: justify;
 }
 
 h4 {
@@ -107,9 +108,13 @@ img {
   font-family: monospace;
 }
 
-.link2:hover {
+a.link2:hover {
   background-color: rgb(215, 192, 251);
   font-family: monospace;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 2s;
 }
 
 .img2 {
@@ -142,6 +147,7 @@ li {
   display: inline-block;
   flex-direction: column;
   margin-top: 0rem;
+  padding-left: 0rem;
 }
 header {
   margin-left: 4rem;
@@ -162,4 +168,12 @@ section {
   position: sticky;
   margin-top: 3rem;
   margin-left: 2rem;
+}
+h3:nth-child(n) {
+  background-color: peachpuff;
+}
+p.footer:hover {
+  color: black;
+  font-size: 25px;
+  transition: font-size 2s 2s;
 }
