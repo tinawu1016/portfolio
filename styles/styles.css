@@ -76,7 +76,6 @@ p {
   background-color: rgb(98, 239, 232);
   font-family: cursive;
   font-weight: 700;
-
 }
 
 .list-of-project2:hover {
@@ -178,4 +177,84 @@ p.footer:hover {
   color: black;
   font-size: 25px;
   transition: font-size 2s 2s;
+}
+form {
+  margin-left: 5rem;
+  width: 700px;
+  font-family: "Arial";
+
+}
+input, select, textarea {
+  display: block;
+  font-size: 100%;
+  box-sizing: border-box;
+  margin: 1rem;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #99ffcc;
+}
+input[type=email]:focus {
+  background-color:#99ccff;
+}
+input {
+  border-radius: 20px;
+}
+fieldset {
+  border: none;
+}
+fieldset input {
+  display: inline;
+}
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.checkbox label:hover input ~ .checkmark {
+  background-color: #ff33cc;
+}
+.checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkmark:after {
+  display: block;
+}
+.checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }

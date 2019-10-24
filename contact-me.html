@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Lobster|Righteous|Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+    </header>
+    <h2>Your Information</h2>
+    <form method="GET">
+      <label>Your Name
+        <input type="text" name="applicantName">
+      </label>
+      <label>Your Email
+        <input type="email" name="applicantEmail">
+      </label>
+      <fieldset>
+        <legend>What is your gender?</legend>
+        <label>Male
+          <input type="radio" name="applicantGender" value="male">
+        </label>
+        <label>Female
+          <input type="radio" name="applicantGender" value="female">
+        </label>
+      </fieldset>
+      <label>What is your age?
+        <select name="age">
+          <option value="">Please select</option>
+          <option value="young">Under 18</option>
+          <option value="middle-age">19 to 40</option>
+          <option value="elder">Over 41</option>
+        </select>
+      </label>
+      <fieldset class="checkbox">
+        <legend>Where are you from?</legend>
+        <label>United States
+          <input type="checkbox" name="place" value="United States">
+          <span class="checkmark"></span>
+        </label>
+
+        <label>China
+          <input type="checkbox" name="place" value="China">
+          <span class="checkmark"></span>
+        </label>
+
+        <label>Aftica
+          <input type="checkbox" name="place" value="Africa">
+          <span class="checkmark"></span>
+        </label>
+
+        <label>Japan
+          <input type="checkbox" name="place" value="Japan">
+          <span class="checkmark"></span>
+        </label>
+
+        <label>Korea
+          <input type="checkbox" name="place" value="Korea">
+          <span class="checkmark"></span>
+        </label>
+
+      </fieldset>
+      <label>Messages
+        <textarea name="applicantMessages" rows="5" cols="60">
+        I enjoy this class.
+        </textarea>
+      </label>
+
+      <input type="submit" value="Contact Me Now!">
+    </form>
+  </body>
+</html>
